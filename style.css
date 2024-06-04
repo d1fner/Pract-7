@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fafafa;
+    background-color: black;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #646464;
+    padding: 4rem 2rem;
+    background-repeat: no-repeat;
+    background-image: url(./buk.jpg);
+    background-size: cover;
+    
+}
+
+.col-md-4{
+    color: black;
+}
+
+#about {
+    padding: 4rem 2rem;
+    background-color: #646464;
+    background-repeat: no-repeat;
+    background-image: url(./gitara-muzyka.jpg);
+    background-size: cover;
+}
+
+#skills {
+    padding: 4rem 2rem;
+}
+
+#contact {
+    padding: 4rem 2rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 0.5rem 0;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #ff0000;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #b30000;
+}

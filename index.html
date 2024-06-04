@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>сайт-візитка</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">d1fner</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Про мене</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Навички</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Контакти</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="jumbotron text-center">
+        <img src="love_is.jpg" alt="Фото" class="rounded-circle mb-3" width="160">
+        <h1 class="display-4">d1fner</h1>
+        <p class="lead">Developer</p>
+    </header>
+
+    <section id="about" class="container my-5">
+        <h2 class="text-center">Про мене</h2>
+        <p class="text-center">I am beginner Web Designer</p>
+    </section>
+
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Навички</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Технічні навички</h3>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>C/C++</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Мови</h3>
+                    <ul>
+                        <li>Українська</li>
+                        <li>Англійська</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Інші навички</h3>
+                    <ul>
+                        <li>Гітара )</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Контакти</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form>
+                    <div class="form-group">
+                        <label for="email">Електронна пошта:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Введіть e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Повідомлення:</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Давайте напишемо щось"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Надіслати</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; Created by d1fner.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
